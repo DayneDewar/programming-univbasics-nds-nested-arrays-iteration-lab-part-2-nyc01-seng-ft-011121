@@ -7,8 +7,8 @@ count = 0
   while count < src.length do 
     
       if count < src[count].length
-       minimum_numbers << src[count].sort
-        
+       sorted_array = src[count].sort
+       minimum_numbers = sorted_array.first
       end  
    count += 1     
   end
