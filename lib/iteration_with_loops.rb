@@ -8,7 +8,7 @@ count = 0
     
       if count < src[count].length
        sorted_array = src[count].sort
-       minimum_numbers = sorted_array.first
+       minimum_numbers << sorted_array.first
       end  
    count += 1     
   end
