@@ -5,11 +5,10 @@ minimum_numbers = Array.new
 count = 0
 
   while count < src.length do 
-    inner_count = 0
     
-      while inner_count < src[count].length do
-        sorted_array = src[count].sort
-        minimum_numbers << sorted_array.first
+      if count < src[count].length
+       minimum_numbers << src[count][inner_count].first.sort
+        
       end  
    count += 1     
   end
