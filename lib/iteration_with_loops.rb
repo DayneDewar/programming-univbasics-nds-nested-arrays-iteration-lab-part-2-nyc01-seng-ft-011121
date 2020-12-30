@@ -7,7 +7,7 @@ count = 0
   while count < src.length do 
     
       if count < src[count].length
-       minimum_numbers << src[count].first.sort
+       minimum_numbers << src[count].first
         
       end  
    count += 1     
